@@ -1,5 +1,7 @@
 # Utilizando Stream.flatMap para processar uma lista de pontos de vários polígonos
 
+![Build](https://github.com/JunoPLupus/fp-projeto-1-poligonos-flatmap/actions/workflows/build.yml/badge.svg)
+
 Este projeto implementa uma aplicação desktop multiplataforma utilizando a biblioteca [OpenJFX](https://openjfx.io) de Java e desenha polígonos na tela.
 O objeto do projeto não é ensinar a usar o JavaFX, mas sim treinar o uso de `Stream.flatMap` para processar uma lista de pontos de vários polígonos usando programação funcional.
 
