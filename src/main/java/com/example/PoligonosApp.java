@@ -134,13 +134,17 @@ public class PoligonosApp extends Application {
                 .toList();
     }
 
+    /**
+     * @param lados quantidade de lados de um polígono
+     * @return nome do polígono de acordo com a quantidade de lados.
+     */
     private String nomePoligono(Integer lados) {
         return switch (lados) {
             case 3 -> "Triângulo";
             case 4 -> "Quadrilátero";
             case 5 -> "Pentágono";
             case 6 -> "Hexágono";
-            default -> "";
+            default -> lados > 6 ? "Polígono" : "Inválido";
         };
     }
 
